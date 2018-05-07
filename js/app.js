@@ -31,13 +31,15 @@ piko.innerText = "Concatenation";
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
-
+var prince = document.getElementsByClassName('profile')[0];
+prince.innerHTML = 1999;
 
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-
+var bruce = document.getElementsByClassName('profile')[1];
+bruce.innerText = "Adapt what is useful, reject what is useless, and add what is specifically your own.";
 
 /*6. Samuel L Jackson
 

@@ -45,7 +45,8 @@ bruce.innerText = "Adapt what is useful, reject what is useless, and add what is
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var sam = document.getElementsByClassName('alias')[2];
+sam.innerHTML = "The guy from pulp fiction";
 
 /*7. Peter Griffin
 
@@ -53,7 +54,10 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
-
+var peter = document.createElement('div');
+peter.id = 'name7';
+peter.innerHTML = "Peter Griffin";
+nameParent.appendChild(peter);
  
 /*8. Tim Duncan
 

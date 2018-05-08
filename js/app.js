@@ -73,3 +73,13 @@ aliasParent.appendChild(tim);
 //Final Boss
 /*9. Create your own profile.*/
 
+var targetDiv = document.getElementsByClassName('block3')[2].getElementsByTagName('img')[0];
+targetDiv.id = 'poop';
+document.getElementById("poop").src="http://chazkondo.com/wp-content/uploads/bb-plugin/cache/2016-05-0dsd5-09.52.46-295x300-circle.jpg";
+targetDiv.innerHTML = '<img src="http://chazkondo.com/wp-content/uploads/bb-plugin/cache/2016-05-0dsd5-09.52.46-295x300-circle.jpg" alt="Chaz">'
+var something = document.createElement('div');
+something.innerHTML = 'Chaz Kondo <br> Just a guy <br> Programming novice <br> "..I like things and stuff sometimes"' ;
+something.id = 'alias8';
+var doodoo = document.getElementsByClassName('block3')[2];
+doodoo.appendChild(something);
+
